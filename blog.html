@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .leftcolumn {
+  padding: 20px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+  background: pink;
+}
+
+.header1 {
+  overflow: hidden;
+  background-color: pink;
+  padding: 20px 10px;
+}
+
+.header1 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 2px;
+}
+
+.header1 a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header1 a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.header1-right {
+  float: right;
+}
+
+.title {
+  
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 33.3%;  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 40px;
+  text-align: center;
+  background: pink;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body> 
+  <div class="header1">
+    <a href="#default" class="logo">Udaan logo</a>
+    <div class="header1-right">
+      <a href="#home">Products</a>
+      <a href="#contact">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="#">Ask desk</a>
+    </div>
+  </div>
+<div class="header">
+  <h1>Our Blog</h1>
+</div><br>
+<div class="title">
+  <h2>Recent posts</h2>
+</div>
+<div class="row">
+   <div class="leftcolumn">
+      <div class="card">
+      <img src="https://th.bing.com/th/id/Rf129412a3f5ff949b7606bc48925a3ca?rik=%2bx8NxS3tJHUiiw&riu=http%3a%2f%2fsmallbiztrends.com%2fwp-content%2fuploads%2f2018%2f05%2fshutterstock_569019595.jpg&ehk=Vy6i015a1DZXtnBKg7IMxPSO8ThO6Vn1AjBNVfub020%3d&risl=&pid=ImgRaw" alt="Mountains" height="300" width="100%">
+        <h3>How can I sell my products online</h3>
+        <p>If you are looking for a way to earn income from home, consider selling products online.</p>
+        <a href="1.html" hreflang="en">Read More</a>
+      </div>
+   </div>
+    <div class="leftcolumn">
+      <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.d-5mOGE9Lqr5KAgIzguhHgHaHa?pid=ImgDet&rs=1" alt="Lights" height="300" width="100%">
+        <h3>Different paintings for home decor</h3>
+        <p>Here you could find some paintings for home decoration which youn sell online .</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.dZj_ADn4uvBCjSJFVGgPZQHaF_?pid=ImgDet&rs=1" alt="Nature" height="300" width="100%">
+        <h3>Home decor Diyas</h3>
+        <p>· Diyas are a small type of lamp, lit on Diwali for worship and decorative purposes.</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/Rf5b06e649df951fb3edad63d38eb63e4?rik=f1oXfNNUJcQw4A&riu=http%3a%2f%2fak1.ostkcdn.com%2fimages%2fproducts%2f11382424%2fP18350884.jpg&ehk=eVc82IJunSNP0Lkd7x23fRQ0KFm04lsacBw0yOePLgo%3d&risl=&pid=ImgRaw" alt="Car" height="300" width="100%">
+        <h3>Home decor curtains</h3>
+        <p>Lorem ipsum dolor..</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+      <img src="https://img1.etsystatic.com/063/0/7102891/il_fullxfull.763818805_f7rt.jpg" alt="Car" height="300" width="100%">
+        <h3>Hand stiched Quilts</h3>
+        <p>Lorem ipsum dolor..</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+      <img src="https://i.pinimg.com/originals/20/98/da/2098da7d9287a4ce74a1112f85ea0ab9.jpg" alt="Car" height="300" width="100%">
+        <h3>Hand Made indian designer dresses</h3>
+        <p>Lorem ipsum dolor..</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.oZtc983yhKLd5B6eCOfXnQHaEK?w=311&h=180&c=7&o=5&dpr=1.5&pid=1.7" alt="Car" height="300" width="100%">
+        <h3>How to start your own tiffin service</h3>
+        <p>How to start your own tiffin service</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.ij91_JfKy9vqnKNN9Ag-agHaLH?w=200&h=300&c=7&o=5&dpr=1.5&pid=1.7" alt="Car" height="280" width="100%">
+        <h3>How to sell your homemade bakery stuffs</h3>
+        <p>Lorem ipsum dolor..</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+       <img src="https://th.bing.com/th/id/OIP.DJHAnFami4X8mNjMrXEaYwHaEn?w=303&h=187&c=7&o=5&dpr=1.5&pid=1.7" alt="Car" height="280" width="100%">
+        <h3>Best part time jobs for Huosehold Women</h3>
+        <p>Lorem ipsum dolor..</p>
+        <a href="https://meesho.com/blog/different-types-cupboards-you-need-your-house" hreflang="en">Read More</a>
+      </div>
+    </div>
+</div>
+
+<div class="footer">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p>© Copyright 2022 Udaan </p>
+</div>
+
+</body>
+</html>
