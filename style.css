@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;   
+}
+
+/* Navbar Section  */
+.navbar{
+    padding:0 0 3.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar-item{
+    padding: 10px;
+    font-size:1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:520;
+}
+.navbar a{
+    text-decoration: none;
+}
+.dropdown-item
+{
+    font-size: 1.3rem;
+}
+
+/* Title section  */
+#title{
+    background-color: #ff4c68;
+    color: white;
+   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.main-button{
+    font-size: 2rem;
+    padding: 2% 4% 2% 4%;
+    margin: 5% 3% 5% 0;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+/* About Section  */
+#about{
+    padding:5% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.heading{
+
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+    
+}
+
+.center{
+    padding-top: 0;
+    width: 15%;
+}
+
+h3{
+    padding-top: 4%;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+.about-div{
+font-size: 1.8rem;
+  padding-top: 5%;
+}
+
+.about-div img{
+    width: 300px;
+    height: 250px;
+}
+
+
+/* What are you looking for Section  */
+#lookingFor{
+    
+    background-color: #ef8172 ;
+    color: white;
+    text-align: center;
+}
+
+ h2{
+    padding-top: 5%;
+    font-size: 3.2rem;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 800;
+}
+
+p{
+    font-size: 1.9rem;
+}
+#lookingFor img{
+    width: 12%;
+    border-radius: 100%;
+    margin:0 auto;
+}
+
+#lookingFor button{
+    margin: 2% auto;
+    width: 25%;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+
+
+/* Motivation behind creating Udaan Section  */
+#motivation{
+    padding:5% 15%;
+    text-align: center;
+}
+
+.motivation-column{
+    padding: 3% 2%;
+}
+
+
+/* Footer Section  */
+#footer{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+
+#footer p {
+    color: white;
+}
+
+.footer-icon{
+    text-align: center;
+    margin: 2% 1%;
+}

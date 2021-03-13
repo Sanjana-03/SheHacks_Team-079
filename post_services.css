@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#heading {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #df7061;
+}
+
+label {
+    
+    color: black;
+}
+
+.container {
+    width: 500px;
+    margin: 15px auto;
+    border: 3px solid #ef8172;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    border:none;
+    background-color: #f8ecec;
+    
+}
+
+input[type="submit"] {
+    background-color: #ef8172;
+    border: none;
+    color:#ecd1cc;
+    padding: 3px 3px;
+    height:30px;
+    width:100%;
+    font-size: 15px;
+}
+input[type="submit"]:hover{
+    font-size:17px ;
+    cursor:pointer;
+    color:black;
+    font-weight: 600;
+    background-color: #df7061;
+}
+/* Navbar Section  */
+.navbar{
+padding:0 0 0 0;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+margin: 0;
+}
+.navbar-item{
+padding: 10px;
+font-size: 1.2rem;
+font-family: 'Montserrat', sans-serif;
+font-weight:520;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+/* Footer Section  */
+#footer{
+background-color: #ff4c68;
+color: white;
+text-align: center;
+padding: 3% 5%;
+
+}
+
+#footer p {
+color: white;
+}
+
+.footer-icon{
+text-align: center;
+margin: 2% 1%;
+}
+
+
