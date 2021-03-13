@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udaan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Animate on scroll link  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/b0ad7a9d82.js" crossorigin="anonymous"></script>
+    <!-- Stylesheets  -->
+    <!-- Bootstrap StyleSheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- External StyleSheets  -->
+   <!--  <link rel="stylesheet" href="style.css"> -->
+    <!-- Bootstrap Scripts  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar Section  */
+.navbar{
+    padding:0 0 3.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar-item{
+    padding: 10px;
+    font-size:1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:520;
+}
+.navbar a{
+    text-decoration: none;
+}
+.dropdown-item
+{
+    font-size: 1.3rem;
+}
+
+/* Title section  */
+#title{
+    background-color: #ff4c68;
+    color: white;
+   
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.main-button{
+    font-size: 2rem;
+    padding: 2% 4% 2% 4%;
+    margin: 5% 3% 5% 0;
+    width: 150px;
+    height: 50px;
+}
+
+/* Footer Section  */
+#footer{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+
+#footer p {
+    color: white;
+}
+
+.footer-icon{
+    text-align: center;
+    margin: 2% 1%;
+}
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 33.3%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: lightcyan;
+   padding: 5px;
+   margin-top: 0px;
+}
+
+.my {
+margin-left: 120px;
+margin-right: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+}
+
+.my2 {
+margin-left: 120px;
+margin-right: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+.my1 {
+    margin-left: 90px;
+}
+
+.side {
+    margin-left: 40px;
+}
+
+.row {
+  margin: 5px -10px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .leftcolumn {
+  padding: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+</style>
+</head>
+<body>
+  <section id="title">
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="" class="navbar-brand ">Udaan</a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class=" ms-auto navbar-nav   ">
+                    <li class="navbar-item"><a href="" class="nav-link">Products</a></li>
+                    <li class="navbar-item"><a href="" class="nav-link">Services </a></li>
+                    <li class="navbar-item"><a href="" class="nav-link">Blog</a></li>
+                    <li class="navbar-item"><a href="" class="nav-link">Ask</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section><br>
+<section>
+ <img class="my1" src="https://th.bing.com/th/id/OIP.oZtc983yhKLd5B6eCOfXnQHaEK?w=311&h=180&c=7&o=5&dpr=1.5&pid=1.7" height="500px" width="980px">
+</section>
+  
+  <!-- Band Description -->
+  <section class="w3-container w3-center w3-content" style="max-width:900px">
+    <br><br><p class="my">Last updated on 7 march 2021</p>
+   <h2 class="my2"><b>How to start your own tiffin service</b></h2>
+    <p class="my">With the rising demand of Indian homemade food , tiffin services are becoming more and more popular. Nowadays, customers can order just about any kind of Indian food and enjoy it in the comfort of their home. Dining out is not always the best option. Many people are either too busy or too stressed to stop by their favorite restaurant after work. 
+        You can start your own tiffin business and deliver savory meals right to their doorstep.<br>
+       <br><b>1. Research the Local Market</b><br>
+        <br>First, make sure you have a good understanding of this business model. "Tiffin" refers to a small meal that's usually served at lunch or in the middle of the day. In some parts of India, it represents a light breakfast or snack. Tiffin services are popular in most Asian countries. The meals are prepared at home and delivered in lunch boxes.
+           If you're wondering how to start a tiffin service from home, research the market and see who your competitors are. This kind of business works best in areas where international cuisine is in high demand, as well as in Indo-American neighborhoods. Depending on where you live, the competition can be fierce, so it's important that you have a solid business plan in place.
+         Approximately 10 percent of traditional restaurants offer Indian-inspired food, such as curry-rub wings and rice bowls. If you plan to launch a home-based tiffin business, you'll be competing against hundreds of dining venues.<br>
+        
+        <br><b>2. Tiffin Service Business Plan</b><br>
+        <br>Estimate your potential revenue and expenses, research food suppliers and define your target audience. Decide whether you're going to do everything yourself or hire employees. You can start small and expand your business as your profit increases.
+        Determine whether you're going to serve individual customers or schools, local companies, hospitals and so on. Another option is to provide catering services for weddings, cocktail parties, anniversaries and other special events. Your tiffin service business plan should also include a list of ingredients, supplies and kitchen equipment. This will determine the costs involved.
+        Look for wholesale distributors of Indian herbs and spices, curry sauces, basmati rice, gram flour, couscous and other specialty foods. Some examples are Spicy Food USA, Maya Foods and Indian Foods Co. Buying in bulk will save thousands of dollars.
+        Learn how to promote a tiffin service business. Check your competitors to see how they advertise their services and what makes them successful. Your audience will most likely include Indian households, millennials, food enthusiasts and people with a taste for international cuisine.
+        Millennials, for example, are shaping the food industry. More than 36 percent express interest in Indian cuisine. By comparison, only 21 percent of baby boomers prefer this type of food. Therefore, your marketing efforts need to be specifically designed to attract those customers who are most likely to buy. Online advertising is a must.<br>
+        
+        <br><b>3. Meet the Legal Requirements</b><br>
+        <br>Starting a tiffin business requires more than a passion for food and cooking. You also need to meet certain legal requirements. Besides registering your business name and choosing a legal structure, it's important to obtain licenses and permits.
+        Most states require a general business license, food-handling licenses and health permits. Caterers who operate in New York, for example, are required to obtain a permit from the Department of Health and Mental Hygiene, whether the food is consumed on or off the premises. Furthermore, it's necessary to register for a tax number and purchase liability insurance and workers' compensation coverage if you plan to hire employees.
+         Check your state’s laws on how to start a tiffin business or a home-based catering business in general. Make sure your state allows food services to be run out of a home kitchen. The state of New Hampshire, for instance, requires a homestead food license for any business with annual gross sales of over $20,000. If your revenue doesn't exceed this amount and you only sell food from your own farm or residence, this permit is not mandatory.
+        Whether you plan to use your own kitchen or rent a commercial kitchen, the space should meet the strictest food and sanitation standards. Be prepared for regular health and sanitary inspections. Check the legal requirements for cooking equipment, refrigeration, ventilation, food reheating and thawing, garbage disposal and other relevant aspects. Make sure your staff is aware of food safety practices.<br></p>
+  </section><br><br>
+    <br><h2 class="side">Some other popular posts</h2>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+            <img src="https://th.bing.com/th/id/Rf129412a3f5ff949b7606bc48925a3ca?rik=%2bx8NxS3tJHUiiw&riu=http%3a%2f%2fsmallbiztrends.com%2fwp-content%2fuploads%2f2018%2f05%2fshutterstock_569019595.jpg&ehk=Vy6i015a1DZXtnBKg7IMxPSO8ThO6Vn1AjBNVfub020%3d&risl=&pid=ImgRaw" alt="Mountains" height="300" width="100%">
+               <br><h3>How can I sell my products online</h3>
+               <p style="font-size: 12px;">If you are looking for a way to earn income from home, consider selling products online.</p>
+               <a href="1.html" hreflang="en">Read More</a>
+             </div>
+           </div>
+           <div class="leftcolumn">
+           <div class="card">
+           <img src="https://th.bing.com/th/id/OIP.d-5mOGE9Lqr5KAgIzguhHgHaHa?pid=ImgDet&rs=1" alt="Lights" height="300" width="100%">
+             <br><h3>Different paintings for home decor</h3>
+             <p style="font-size: 12px;">Here you could find some paintings ideas for home decoration which you can buy and sell online .</p>
+             <a href="2.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+           <img src="https://th.bing.com/th/id/OIP.dZj_ADn4uvBCjSJFVGgPZQHaF_?pid=ImgDet&rs=1" alt="Nature" height="300" width="100%">
+             <br><h3>Home decor Diyas</h3>
+             <p style="font-size: 12px;">Diyas are a small type of lamp, lit on Diwali for worship and decorative purposes.</p>
+             <a href="3.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+             <img src="https://th.bing.com/th/id/Rf5b06e649df951fb3edad63d38eb63e4?rik=f1oXfNNUJcQw4A&riu=http%3a%2f%2fak1.ostkcdn.com%2fimages%2fproducts%2f11382424%2fP18350884.jpg&ehk=eVc82IJunSNP0Lkd7x23fRQ0KFm04lsacBw0yOePLgo%3d&risl=&pid=ImgRaw" alt="Car" height="300" width="100%">
+             <br><h3>Home decor curtains</h3>
+             <p style="font-size: 12px;">Everyone has their own choice of selecting different curtain designs.</p>
+             <a href="4.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+           <img src="https://img1.etsystatic.com/063/0/7102891/il_fullxfull.763818805_f7rt.jpg" alt="Car" height="300" width="100%">
+             <br><h3>Hand stiched Quilts</h3>
+             <p style="font-size: 12px;">Basically a Quilt consists of many layers of fabrics stitched together. </p>
+             <a href="5.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+           <img src="https://i.pinimg.com/originals/20/98/da/2098da7d9287a4ce74a1112f85ea0ab9.jpg" alt="Car" height="300" width="100%">
+             <br><h3>Hand Made indian designer dresses</h3>
+             <p style="font-size: 12px;">Indian wear is one of the most exquisite and intricate attire that you will find around the world.</p>
+             <a href="6.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+           <img src="https://th.bing.com/th/id/OIP.ij91_JfKy9vqnKNN9Ag-agHaLH?w=200&h=300&c=7&o=5&dpr=1.5&pid=1.7" alt="Car" height="280" width="100%">
+             <br><h3>How to sell your homemade bakery stuffs</h3>
+             <p style="font-size: 12px;">Do people love your cupcakes? Is your pecan pie famous for miles around? If so, it might be time to start a home baking business on the side.</p>
+             <a href="8.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+         <div class="leftcolumn">
+           <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.DJHAnFami4X8mNjMrXEaYwHaEn?w=303&h=187&c=7&o=5&dpr=1.5&pid=1.7" alt="Car" height="280" width="100%">
+             <br><h3>Best part time jobs for Household Women</h3>
+             <p style="font-size: 12px;">If you have become a parent and would like to start working again then you can do a good part time job without staying away from home for too long.</p>
+             <a href="9.html" hreflang="en">Read More</a>
+           </div>
+         </div>
+     </div>
+     <footer id="footer">
+      <i class="fab fa-twitter fa-1x footer-icon"></i>
+      <i class="fab fa-facebook-f fa-1x footer-icon"></i>
+      <i class="fab fa-instagram fa-1x footer-icon"></i>
+      <i class="fas fa-envelope fa-1x footer-icon"></i>
+      <p>© Copyright 2021 Udaan</p>
+  </footer>
+</div>
+
+</body>
+</html>
